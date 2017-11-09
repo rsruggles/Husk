@@ -1,0 +1,90 @@
+/*  ///////////////////
+    // GRID BACKBONE //
+    /////////////////// */
+
+/* Normalize Padding Behavior Site Wide */
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+ 
+/* Column Floats & Padding */
+[class*='col-'] {
+  float: left;
+  padding: 10px;
+}
+ 
+/* Floats last ".col-" to the right */
+[class*='col-']:last-of-type {
+  padding-right: 10px;
+  float: right;
+}
+ 
+/* Clearfix */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Define Default Column Widths */
+.col-1  {width: 8.333%;}
+.col-2  {width: 16.666%;}
+.col-3  {width: 25%;}
+.col-4  {width: 33.333%;}
+.col-5  {width: 41.666%;}
+.col-6  {width: 50%;}
+.col-7  {width: 58.333%;}
+.col-8  {width: 66.666%;}
+.col-9  {width: 75%;}
+.col-10 {width: 83.333%;}
+.col-11 {width: 91.666%;}
+.col-12 {width: 100%;}
+
+/* Desktop CSS Styles */
+@media (min-width: 800px) {
+  /* Page Container */
+  .container {
+    max-width: 900px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+/* Mobile CSS Styles */
+@media (max-width: 799px) {
+  
+  /* Page Container */
+  .container {
+    padding: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    max-width: 100%;
+  }
+  
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12 {
+    width: 100%;
+  }
+
+
+
+
+
+

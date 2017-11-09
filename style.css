@@ -1,0 +1,37 @@
+/* Make Columns Gray, Rounded */
+[class*='col-'] {
+  background-color: #e2f2ff;
+  text-align: center;
+  border: 1px solid #bed6ea;
+  border-radius: 15px;
+}
+
+body {
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+
+pre {
+  background-color: #e2f2ff;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 12px;
+  width: 100%;
+  margin: 0;
+  padding: 5px;
+}
+
+.bg-white {
+  background-color: #fff;
+  border: none;
+}
+
+.txt-left {
+  text-align: left;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.full-width {
+  width: 100%;
+}
