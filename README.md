@@ -38,7 +38,7 @@ As seen in index.html:
     <title>Project Name</title>
     
     <!-- HUSK CSS -->
-    <link rel="stylesheet" type="text/css" href="husk.css">
+    <link rel="stylesheet" type="text/css" href="css/husk.css">
   </head>
   
   <!-- Document Body -->
