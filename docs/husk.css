@@ -1,6 +1,6 @@
-/*  ///////////////////
-    // GRID BACKBONE //
-    /////////////////// */
+/*  *******************
+    ** HUSK BACKBONE **
+    ******************* */
 
 /* Normalize Padding Behavior Site Wide */
 *,
@@ -47,27 +47,32 @@
 .col-12 {width: 100%;}
 
 /* Desktop CSS Styles */
-@media (min-width: 800px) {
-  /* Page Container */
-  .container {
-    max-width: 900px;
-    margin: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
+@media only screen and (min-width: 881px) {
+  /* Place Holder - for now
+     .col-1 through .col-12
+     are default column classes
+  */
+}
+
+/* Tablet CSS Styles */
+@media only screen and (max-width: 880px) {
+  .md-col-1  {width: 8.333%;}
+  .md-col-2  {width: 16.666%;}
+  .md-col-3  {width: 25%;}
+  .md-col-4  {width: 33.333%;}
+  .md-col-5  {width: 41.666%;}
+  .md-col-6  {width: 50%;}
+  .md-col-7  {width: 58.333%;}
+  .md-col-8  {width: 66.666%;}
+  .md-col-9  {width: 75%;}
+  .md-col-10 {width: 83.333%;}
+  .md-col-11 {width: 91.666%;}
+  .md-col-12 {width: 100%;}
 }
 
 /* Mobile CSS Styles */
-@media (max-width: 799px) {
-  
-  /* Page Container */
-  .container {
-    padding: 0;
-    margin-left: 15px;
-    margin-right: 15px;
-    max-width: 100%;
-  }
-  
+@media only screen and (max-width: 680px) {
+  /* Default to full width */
   .col-1,
   .col-2,
   .col-3,
@@ -82,9 +87,17 @@
   .col-12 {
     width: 100%;
   }
-
-
-
-
-
-
+  /* Or make specific rules for mobile */
+  .sm-col-1  {width: 8.333%;}
+  .sm-col-2  {width: 16.666%;}
+  .sm-col-3  {width: 25%;}
+  .sm-col-4  {width: 33.333%;}
+  .sm-col-5  {width: 41.666%;}
+  .sm-col-6  {width: 50%;}
+  .sm-col-7  {width: 58.333%;}
+  .sm-col-8  {width: 66.666%;}
+  .sm-col-9  {width: 75%;}
+  .sm-col-10 {width: 83.333%;}
+  .sm-col-11 {width: 91.666%;}
+  .sm-col-12 {width: 100%;}
+}
