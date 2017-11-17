@@ -35,3 +35,19 @@ pre {
 .full-width {
   width: 100%;
 }
+
+/* Page Container */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media only screen and (max-width: 680px) {
+  .container {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
