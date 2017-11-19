@@ -16,12 +16,12 @@
 /* Column Floats & Padding */
 [class*='col-'] {
   float: left;
-  padding: 10px;
+  padding: 0.625em;
 }
  
 /* Floats last ".col-" to the right */
 [class*='col-']:last-of-type {
-  padding-right: 10px;
+  padding-right: 0.625em;
   float: right;
 }
  
@@ -56,18 +56,18 @@
 
 /* Tablet CSS Styles */
 @media only screen and (max-width: 880px) {
-  .md-col-1  {width: 8.333%;}
-  .md-col-2  {width: 16.666%;}
-  .md-col-3  {width: 25%;}
-  .md-col-4  {width: 33.333%;}
-  .md-col-5  {width: 41.666%;}
-  .md-col-6  {width: 50%;}
-  .md-col-7  {width: 58.333%;}
-  .md-col-8  {width: 66.666%;}
-  .md-col-9  {width: 75%;}
-  .md-col-10 {width: 83.333%;}
-  .md-col-11 {width: 91.666%;}
-  .md-col-12 {width: 100%;}
+  .md-1  {width: 8.333%;}
+  .md-2  {width: 16.666%;}
+  .md-3  {width: 25%;}
+  .md-4  {width: 33.333%;}
+  .md-5  {width: 41.666%;}
+  .md-6  {width: 50%;}
+  .md-7  {width: 58.333%;}
+  .md-8  {width: 66.666%;}
+  .md-9  {width: 75%;}
+  .md-10 {width: 83.333%;}
+  .md-11 {width: 91.666%;}
+  .md-12 {width: 100%;}
 }
 
 /* Mobile CSS Styles */
@@ -88,16 +88,16 @@
     width: 100%;
   }
   /* Or make specific rules for mobile */
-  .sm-col-1  {width: 8.333%;}
-  .sm-col-2  {width: 16.666%;}
-  .sm-col-3  {width: 25%;}
-  .sm-col-4  {width: 33.333%;}
-  .sm-col-5  {width: 41.666%;}
-  .sm-col-6  {width: 50%;}
-  .sm-col-7  {width: 58.333%;}
-  .sm-col-8  {width: 66.666%;}
-  .sm-col-9  {width: 75%;}
-  .sm-col-10 {width: 83.333%;}
-  .sm-col-11 {width: 91.666%;}
-  .sm-col-12 {width: 100%;}
+  .sm-1  {width: 8.333%;}
+  .sm-2  {width: 16.666%;}
+  .sm-3  {width: 25%;}
+  .sm-4  {width: 33.333%;}
+  .sm-5  {width: 41.666%;}
+  .sm-6  {width: 50%;}
+  .sm-7  {width: 58.333%;}
+  .sm-8  {width: 66.666%;}
+  .sm-9  {width: 75%;}
+  .sm-10 {width: 83.333%;}
+  .sm-11 {width: 91.666%;}
+  .sm-12 {width: 100%;}
 }
