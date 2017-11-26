@@ -4,8 +4,6 @@ Husk is a simple, lightweight, responsive CSS grid. It's meant to be a solution 
 
 ## Getting Started
 
-There's a few files in this repo, mostly for example and documentation. The heart of this project though is husk.css.
-
 Click "Clone or download" to grab a copy of Husk. Copy husk.css into your project foler and create a stylesheet reference to husk.css in the head of your HTML document. 
 
 ```
